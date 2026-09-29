@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BLACKBULL &amp; NEXORA</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="deco" id="deco"></div>
+<div class="blob b1"></div><div class="blob b2"></div>
+<main>
+
+  <!-- ========== HOME SCREEN ========== -->
+  <section id="home" class="view">
+    <div class="home-inner">
+      <span class="tag">⚡ ESPORTS SQUADS</span>
+      <h1 class="hero">BLACKBULL <i>×</i> NEXORA</h1>
+      <p class="sub">Two squads. Three games. One legacy.</p>
+      <div class="stats">
+        <div><b>2</b>Squads</div><div><b>3</b>Games</div><div><b>1</b>Goal</div>
+      </div>
+      <div class="picks" id="picks"></div>
+      <button class="cta" id="enter">Meet the Squad →</button>
+    </div>
+  </section>
+
+  <!-- ========== SQUAD SECTION ========== -->
+  <section id="squad" class="view">
+    <button class="back" id="back">← Home</button>
+    <header>
+      <div class="emblem" id="emblem"></div>
+      <span class="tag" id="game"></span>
+      <h1 id="title"></h1>
+      <p id="tagline"></p>
+    </header>
+    <div class="tools">
+      <input class="search" id="q" placeholder="Search player or role…" aria-label="Search">
+      <div class="chips" id="chips"></div>
+    </div>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty">No squad members found.</p>
+  </section>
+
+</main>
+<input type="file" id="file" accept="image/*" hidden>
+<script src="script.js"></script>
+</body>
+</html>
