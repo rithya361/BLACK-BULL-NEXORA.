@@ -4,6 +4,7 @@ const teams=[
   {id:'bb',team:'BLACKBULL',game:'Mobile Legends: Bang Bang',short:'MLBB',color:'#f5b335',tag:'Rule the Land of Dawn.',icons:['⚔️','🛡️','👑'],emblem:`<svg viewBox="0 0 64 64"><path d="M32 5l21 8v17c0 14-9 24-21 29C20 54 11 44 11 30V13z" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M32 17l4.5 9.5 10.5 1.3-7.7 7.2 2 10.4L32 40l-9.3 5.4 2-10.4-7.7-7.2 10.5-1.3z" fill="var(--accent)"/></svg>`,members:[
     {name:"Chiko",role:"Mid",bio:"Front line and shot caller.",photo:"images/Chiko.jpg"},
     {name:"Aiko",role:"Jungle",bio:"Late game Vai all.",photo:"images/Aiko.jpg"},
+    {name:"Poji",role:"Roam",bio:"Late game ke vai ktub.",photo:"images/Poji.jpg"},
     {name:"Mastero",role:"Goldland",bio:"Burst damage from the back.",photo:"images/Mastero.jpg"}]},
   {id:'nxv',team:'NEXORA',game:'Valorant',short:'Valorant',color:'#ff4655',tag:'Aim. Clutch. Repeat.',icons:['🎯','💥','🔺'],emblem:`<svg viewBox="0 0 64 64"><path d="M4 12h15l13 28 13-28h15L40 56H24z" fill="var(--accent)"/><path d="M26 12h12l-6 13z" fill="var(--bg)"/></svg>`,members:[
     {name:"Chiko",role:"Duelist",bio:"Entry fragger.",photo:"images/Chiko.jpg"},
